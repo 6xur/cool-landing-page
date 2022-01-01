@@ -1,20 +1,17 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   }
 
-
-div {
-    text-align: center;
+h1, p {
+    margin: 0;
 }
 
-.header {
+.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    margin: 0;
-    
 }
 
 ul {
@@ -23,47 +20,34 @@ ul {
     gap: 16px;
   }
 
-.awesomeText {
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.intro-text {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    justify-content: flex-start;
     align-items: flex-start;
-
     text-align: left;
+    gap: 10px;
 }
 
-.awesomeText p {
+.intro-text p {
     max-width: 400px;
-}
-
-h1, p {
-    margin: 0;
-    padding: 0;
-}
-
-button {
-    max-width: 100px;
 }
 
 img {
     max-width: 500px;
 }
 
-.awesome {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
-    gap: 60px;
-
-}
-
-.one {
+.head {
     display: flex;
     flex-direction: column;
     gap: 100px;
-    padding: 0 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-bottom: 60px;
     background-color: blanchedalmond;
 }
@@ -71,21 +55,53 @@ img {
 
 .row {
     display: flex;
-    gap: 100px;
+    gap: 60px;
     justify-content: center;
 }
 
-.row img {
-    max-width: 200px;
+.row img, .row p {
+    max-width: 250px;
 }
 
-.row p {
-    max-width: 200px;
-}
-
-.two {
+.content {
     display: flex;
     flex-direction: column;
-    gap: 60px;
     padding: 60px 0;
+    gap: 60px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 30px;
+    background-color: #e5e7eb;
+}
+
+.quote b {
+    text-align: right;
+}
+
+.join {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.join-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.join-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+    background-color:#cde1ff;
+
+    width: 1200px;
+    margin: 100px auto;
+    
 }
