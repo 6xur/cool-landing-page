@@ -72,11 +72,9 @@ button {
     font-weight: bold;
 }
 
-img {
-    display: block;
+.intro img {
     max-width: 550px;
-    max-height: 367px;
-    
+    height: auto;
 }
 
 .head {
