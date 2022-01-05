@@ -1,3 +1,3 @@
-# cool-landing-page
+# Cool Landing Page
 
-[cool landing page](https://6xur.github.io/cool-landing-page/)
+[Live Link](https://6xur.github.io/cool-landing-page/)
