@@ -26,14 +26,19 @@ p {
 
 ul {
     display: flex;
-    list-style-type: none;
     gap: 20px;
+    list-style-type: none;
   }
 
 a {
+    color: #333333;
     font-size: 18px;
     text-decoration: none;
-    color: #171717;
+    transition-duration: 0.2s;
+}
+
+a:hover{
+    color: black;
 }
 
 .intro {
@@ -46,20 +51,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: left;
     gap: 10px;
-
     max-width: 500px;
+    text-align: left;
 }
 
 .intro-text h1 {
     font-size: 48px;
-    max-width: 500px;
     font-weight: bolder;
-}
-
-.intro-text p {
-    max-width: 550px;
 }
 
 button {
@@ -69,7 +68,14 @@ button {
     color: black;
     border: 2px solid black;
     border-radius: 8px;
+    font-size: 14px;
     font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background: #28282B;
+    color: white;
 }
 
 .intro img {
@@ -87,11 +93,10 @@ button {
     background-color: #F1DFD3;
 }
 
-
 .row {
     display: flex;
-    gap: 60px;
     justify-content: center;
+    gap: 60px;
 }
 
 .row img, .row p {
@@ -99,7 +104,8 @@ button {
 }
 
 .row img{
-    margin-bottom: 5px;
+    border-radius: 8px;
+    margin-bottom: 8px;
 }
 
 .content {
@@ -117,29 +123,27 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
-    text-align: center;
     padding: 60px;
     gap: 30px;
     background-color: #e5e7eb;
 }
 
 .quote p {
-    font-style: italic;
-    font-size: 36px;
-    font-weight: lighter;
-    margin: 0 auto;
     max-width: 1000px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .quote b{
     font-size: 24px;
 }
 
-
 .join {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .join-text {
@@ -151,13 +155,11 @@ button {
 .join-container {
     display: flex;
     justify-content: center;
+    width: 1200px;
     gap: 90px;
     padding: 60px;
-    background-color:#d2f0f9;
-
-    width: 1200px;
     margin: 90px auto;
-    
+    background-color:#d2f0f9;
 }
 
 .join-container button{
